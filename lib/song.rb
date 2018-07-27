@@ -35,6 +35,8 @@ class Song
         v += 1
       else 
       @@genre_count << k
+    end
+    
     
   end
   
