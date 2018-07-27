@@ -31,6 +31,7 @@ class Song
   
   def self.genre_count
     @@genres.each do |k, v|
+      
     end
     
   end
