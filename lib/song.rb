@@ -30,12 +30,7 @@ class Song
   end
   
   def self.genre_count
-    @@genres.each do |k, v = 0|
-      if k == k 
-        v += 1
-      else 
-      @@genre_count << k
-    end
+    @@genre_count[*@@genre.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
   end
     
   end
