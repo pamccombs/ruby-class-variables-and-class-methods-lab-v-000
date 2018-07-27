@@ -31,7 +31,6 @@ class Song
   
   def self.genre_count
     @@genre_count[*@@genres.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
-  end
     
   end
   
