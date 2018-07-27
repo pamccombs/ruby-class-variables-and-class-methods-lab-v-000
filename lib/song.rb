@@ -36,7 +36,7 @@ class Song
       else 
       @@genre_count << k
     end
-    
+  end
     
   end
   
